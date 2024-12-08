@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     cards.forEach((card) => {
         card.addEventListener('mouseenter', function () {
-            card.style.transition = '0.5s';
             card.style.width = '1100px';
 
             const text = card.querySelector('.card-text');
@@ -19,7 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         card.addEventListener('mouseleave', function () {
-            card.style.transition = '0.5s';
             card.style.width = 'auto';
 
             const text = card.querySelector('.card-text');
@@ -29,4 +27,4 @@ document.addEventListener("DOMContentLoaded", () => {
             if (minus) minus.style.display = 'none'; 
         });
     });
-});
+}); 

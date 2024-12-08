@@ -1,5 +1,7 @@
 # RAID-website
 
+https://pokoprogrammer12.github.io/RAID-website/
+
 Project for euk
 
 \*\*\*Macierze dyskowe RAID
@@ -13,6 +15,7 @@ Redundancja: Polega na przechowywaniu kopii zapasowych danych w celu ochrony prz
 Striping: Rozdzielanie danych na wielu dyskach, co pozwala zwiększyć prędkość odczytu i zapisu.
 
 Mirroring: Przechowywanie identycznych kopii danych na dwóch lub więcej dyskach.
+
 Parzystość (RAID 5, RAID 6): Metoda stosowana do zabezpieczania danych poprzez obliczanie wartości kontrolnych (parzystości), które umożliwiają odtworzenie utraconych danych w przypadku awarii dysku.
 
 Podwójna parzystość (RAID 6): Rozwiązanie, które przechowuje dodatkową informację o parzystości, dzięki czemu system jest odporny na awarię dwóch dysków jednocześnie.
