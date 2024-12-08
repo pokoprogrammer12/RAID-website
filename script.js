@@ -4,19 +4,29 @@ function link(element) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    // Select all elements with the 'card' class
-    const elements = document.querySelectorAll('.card'); // Returns a NodeList
+    const cards = document.querySelectorAll('.card');
 
-    // Iterate over each card element
-    elements.forEach((element) => {
-        element.addEventListener('mouseenter', function () {
-            element.style.height = 'auto';  // Expand on hover
-            element.style.transition = '0.5s'; // Smooth transition
+    cards.forEach((card) => {
+        card.addEventListener('mouseenter', function () {
+            card.style.transition = '0.5s';
+            card.style.width = '1100px';
+
+            const text = card.querySelector('.card-text');
+            const minus = card.querySelector('.minus');
+
+            if (text) text.style.display = 'block'; 
+            if (minus) minus.style.display = 'block'; 
         });
 
-        element.addEventListener('mouseleave', function () {
-            element.style.height = '270px';  // Collapse on mouse leave
-            element.style.transition = '0.5s'; // Smooth transition
+        card.addEventListener('mouseleave', function () {
+            card.style.transition = '0.5s';
+            card.style.width = 'auto';
+
+            const text = card.querySelector('.card-text');
+            const minus = card.querySelector('.minus');
+
+            if (text) text.style.display = 'none'; 
+            if (minus) minus.style.display = 'none'; 
         });
     });
 });
