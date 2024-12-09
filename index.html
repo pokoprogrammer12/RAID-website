@@ -183,7 +183,69 @@
                          też droższe w implementacji i może mieć większy spadek wydajności przy odbudowie danych.
                     </div>
                 </div>
+                <div  class="raid_card">
+                    <h2 title="RAID 0+1">raid 0+1</h2>
+                    <img title="RAID 0+1 image" src="./images/raid01.png" alt="">
+                    <div title="RAID 0+1 description"  class="raid_text">
+                        RAID 0+1 to macierz, która łączy RAID 1 (lustrzany) z RAID 0 (striping). 
+                        Oferuje szybki zapis i odczyt z zabezpieczeniem danych przez mirroring. 
+                        W przypadku awarii jednego dysku, system wciąż działa, ale gdy awarii 
+                        ulegnie cały zestaw dysków lustrzanych, 
+                        cała macierz zostaje utracona. Potrzebne są co najmniej 4 dyski.
+                    </div>
+                </div>
+                <div  class="raid_card">
+                    <h2 title="RAID 1+0">raid 1+0</h2>
+                    <img title="RAID 1+0 image" src="./images/raid10.jpg" alt="">
+                    <div title="RAID 1+0 description"  class="raid_text">
+                        RAID 6 to macierz z podwójną parzystością, co oznacza, że system 
+                        jest odporny na awarię dwóch dysków. Jest to bardziej niezawodne
+                         rozwiązanie niż RAID 5, ale jest
+                         też droższe w implementacji i może mieć większy spadek wydajności przy odbudowie danych.
+                    </div>
+                </div>
 
+            </div>
+        </div>
+    </section>
+    <section class="usages" id="usage">
+        <div class="usage">
+            <h1>zastosowanie macierzy RAID</h1>
+            <div class="sub_text_usage">
+                <p>Macierze RAID znajdują zastosowanie w wielu dziedzinach związanych z 
+                     przechowywaniem i ochroną danych. Ich główną rolą jest zwiększenie 
+                    wydajności oraz zapewnienie redundancji danych, co minimalizuje ryzyko ich utraty.</p>
+            </div>
+            <div class="main_text_usage">
+                <h2>główne zastosowania macierzy RAID</h2>
+                <div class="usage_cards">
+                    <div class="usage_card">
+                        <h2>ochrona danych</h2>
+                        <p>RAID 1, RAID 5, RAID 6 oraz RAID 10 są szeroko stosowane w systemach,
+                             gdzie ważne jest bezpieczeństwo danych. To rozwiązanie znajdziesz w 
+                             serwerach, które przechowują dane o wysokiej wartości, 
+                            np. w firmach zajmujących się analizą danych, w bankach, centrach danych.</p>
+                    </div>
+                    <div class="usage_card">
+                        <h2>rozbudowa pamięci</h2>
+                        <p>RAID 5 i RAID 6 są często wykorzystywane w systemach, gdzie dużą wagę przykłada 
+                            się do pojemności i niezawodności, np. 
+                            w macierzach dyskowych przeznaczonych do archiwizacji danych w centrach danych.</p>
+                    </div>
+                    <div class="usage_card">
+                        <h2>wydajność</h2>
+                        <p>RAID 0 jest wykorzystywany w systemach, gdzie priorytetem jest 
+                            maksymalizacja wydajności, jak w serwerach baz danych, serwerach plików, 
+                            czy komputerach do obróbki wideo.
+                            Dzięki stripingowi operacje odczytu i zapisu są szybsze.</p>
+                    </div>
+                    <div class="usage_card">
+                        <h2>systemy wideo i obróbka graficzna</h2>
+                        <p>RAID 5 i RAID 6 są często wykorzystywane w systemach, gdzie dużą wagę przykłada 
+                            się do pojemności i niezawodności, np. 
+                            w macierzach dyskowych przeznaczonych do archiwizacji danych w centrach danych.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

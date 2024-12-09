@@ -202,11 +202,11 @@ html{
     transition: 0.5s;
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
     max-width: 75vw;
     column-gap: 20px;
     row-gap: 50px;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .raid_card{
@@ -233,4 +233,32 @@ html{
     font-size: 15px;
     padding: 10px;
     text-align: center;
+}
+
+/*usages*/
+
+.usage{
+    position: relative;
+    background-image: url(./images/usage_image.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    height: auto;
+    padding: 50px;
+}
+.sub_text_usage{
+    font-size: 30px;
+    color: white;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    width: 70vw;
+}
+
+.usage h1{
+    margin-bottom: 20px;
+    max-width: 50vw;
+}
+
+.main_text_usage{
+    position: absolute;
+    top: 50%;
 }

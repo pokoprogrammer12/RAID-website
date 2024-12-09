@@ -3,6 +3,7 @@
 https://pokoprogrammer12.github.io/RAID-website/
 
 Project for euk
+**_WEBSITE DOSIGNED ONLY FOR FULL HD SCREEN _**
 
 \*\*\*Macierze dyskowe RAID
 RAID (Redundant Array of Independent Disks) to technologia umożliwiająca łączenie kilku dysków twardych w jedną logiczną jednostkę. Dzięki temu możliwe jest zwiększenie wydajności, niezawodności lub pojemności systemu przechowywania danych.
@@ -58,6 +59,19 @@ RAID 1+0 to macierz, która łączy RAID 0 (striping) z RAID 1 (mirroring). Jest
 
 Matrix RAID
 Matrix RAID to rozwiązanie, w którym część dysków działa w trybie RAID 0 (striping), a część w trybie RAID 1 (mirroring). Pozwala to na stworzenie elastycznej konfiguracji, w której różne części systemu mogą oferować różne właściwości – wysoką prędkość w jednym obszarze i bezpieczeństwo danych w innym.
+
+\*\*\*Zastosowanie RAID
+Zastosowania w wydajności
+RAID 0 jest wykorzystywany w systemach, gdzie priorytetem jest maksymalizacja wydajności, jak w serwerach baz danych, serwerach plików, czy komputerach do obróbki wideo. Dzięki stripingowi operacje odczytu i zapisu są szybsze.
+
+Zastosowania w ochronie danych
+RAID 1, RAID 5, RAID 6 oraz RAID 10 są szeroko stosowane w systemach, gdzie ważne jest bezpieczeństwo danych. To rozwiązanie znajdziesz w serwerach, które przechowują dane o wysokiej wartości, np. w firmach zajmujących się analizą danych, w bankach, centrach danych.
+
+Zastosowanie w rozbudowie pamięci
+RAID 5 i RAID 6 są często wykorzystywane w systemach, gdzie dużą wagę przykłada się do pojemności i niezawodności, np. w macierzach dyskowych przeznaczonych do archiwizacji danych w centrach danych.
+
+Zastosowanie w systemach wideo i obróbce grafiki
+RAID 0 i RAID 10 są szczególnie wykorzystywane w branżach wymagających dużej przepustowości, takich jak w produkcji filmowej, grafice komputerowej, edytorach wideo, gdzie kluczowa jest szybkość dostępu do dużych plików.
 
 \*\*\*Zalety i wady poszczególnych konfiguracji RAID
 RAID 0 (Striping)
@@ -148,19 +162,6 @@ Wady:
 
 Częściowa utrata pojemności.
 Złożoność implementacji i zarządzania.
-
-\*\*\*Zastosowanie RAID
-Zastosowania w wydajności
-RAID 0 jest wykorzystywany w systemach, gdzie priorytetem jest maksymalizacja wydajności, jak w serwerach baz danych, serwerach plików, czy komputerach do obróbki wideo. Dzięki stripingowi operacje odczytu i zapisu są szybsze.
-
-Zastosowania w ochronie danych
-RAID 1, RAID 5, RAID 6 oraz RAID 10 są szeroko stosowane w systemach, gdzie ważne jest bezpieczeństwo danych. To rozwiązanie znajdziesz w serwerach, które przechowują dane o wysokiej wartości, np. w firmach zajmujących się analizą danych, w bankach, centrach danych.
-
-Zastosowanie w rozbudowie pamięci
-RAID 5 i RAID 6 są często wykorzystywane w systemach, gdzie dużą wagę przykłada się do pojemności i niezawodności, np. w macierzach dyskowych przeznaczonych do archiwizacji danych w centrach danych.
-
-Zastosowanie w systemach wideo i obróbce grafiki
-RAID 0 i RAID 10 są szczególnie wykorzystywane w branżach wymagających dużej przepustowości, takich jak w produkcji filmowej, grafice komputerowej, edytorach wideo, gdzie kluczowa jest szybkość dostępu do dużych plików.
 
 \*\*\*Rozwiązania techniczne w RAID
 RAID Software: Jest to oprogramowanie, które zarządza macierzą RAID w systemie operacyjnym. Umożliwia konfigurację i zarządzanie macierzą RAID na poziomie systemu operacyjnego, bez potrzeby dedykowanego kontrolera RAID. Wymaga jednak większej mocy obliczeniowej.
