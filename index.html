@@ -207,6 +207,8 @@
 
             </div>
         </div>
+
+    <!--zastosowanie-->    
     </section>
     <section class="usages" id="usage">
         <div class="usage">
@@ -217,7 +219,7 @@
                     wydajności oraz zapewnienie redundancji danych, co minimalizuje ryzyko ich utraty.</p>
             </div>
             <div class="main_text_usage">
-                <h2>główne zastosowania macierzy RAID</h2>
+                <h2 class="main_usage_subtitle">główne zastosowania macierzy RAID</h2>
                 <div class="usage_cards">
                     <div class="usage_card">
                         <h2>ochrona danych</h2>
@@ -249,6 +251,82 @@
             </div>
         </div>
     </section>
+<!--(+-)-->
+<section id="plus_minus" class="pros_cons">
+    <div class="pros_cons_content">
+        <h1>Wady i Zalety macierzy RAID</h1>
+        <div class="pros_cons_cards">
+            <div class="pros">
+                <h2>Zalety</h2>
+                <ul>
+                    <li>Zwiększona wydajność w konfiguracjach takich jak RAID 0.</li>
+                    <li>Poprawa niezawodności i bezpieczeństwa danych w RAID 1, RAID 5, RAID 6.</li>
+                    <li>Redundancja danych pozwalająca na ciągłość pracy w przypadku awarii dysku.</li>
+                    <li>Elastyczność w wyborze konfiguracji w zależności od potrzeb (wydajność, redundancja, pojemność).</li>
+                    <li>Możliwość rozbudowy systemów pamięci masowej.</li>
+                </ul>
+            </div>
+            <div class="cons">
+                <h2>Wady</h2>
+                <ul>
+                    <li>RAID 0 nie zapewnia ochrony przed utratą danych w przypadku awarii dysku.</li>
+                    <li>Wysokie koszty wdrożenia i utrzymania zaawansowanych konfiguracji (np. RAID 6, RAID 10).</li>
+                    <li>Spadek wydajności zapisu przy konfiguracjach z parzystością (np. RAID 5, RAID 6).</li>
+                    <li>Potrzeba zaawansowanego sprzętu lub kontrolera RAID w bardziej złożonych systemach.</li>
+                    <li>Ograniczenie pojemności w RAID 1 do rozmiaru najmniejszego dysku w macierzy.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="tech" class="raid_section">
+    <div class="raid_content">
+        <h1>Rozwiązania techniczne w RAID</h1>
+        <div class="raid_wrapper">
+            <div class="raid_item">
+                <h2>RAID Software</h2>
+                <p>
+                    Jest to oprogramowanie, które zarządza macierzą RAID w systemie operacyjnym. 
+                    Umożliwia konfigurację i zarządzanie macierzą RAID na poziomie systemu operacyjnego, 
+                    bez potrzeby dedykowanego kontrolera RAID. Wymaga jednak większej mocy obliczeniowej.
+                </p>
+            </div>
+            <div class="raid_item">
+                <h2>RAID Hardware</h2>
+                <p>
+                    To rozwiązanie opiera się na dedykowanym kontrolerze RAID, który zarządza macierzą RAID 
+                    na poziomie sprzętowym. Jest szybsze i bardziej wydajne niż oprogramowanie, 
+                    zwłaszcza w systemach z dużymi wymaganiami dotyczącymi przepustowości i niezawodności.
+                </p>
+            </div>
+            <div class="raid_item">
+                <h2>RAID w chmurze</h2>
+                <p>
+                    Współczesne systemy RAID są coraz częściej implementowane w środowisku chmurowym, 
+                    oferując elastyczność i zdalne zarządzanie macierzami dyskowymi. Popularne usługi takie jak 
+                    Amazon Web Services (AWS) oferują rozwiązania RAID w ramach swojej infrastruktury.
+                </p>
+            </div>
+            <div class="raid_item">
+                <h2>Hot Spare</h2>
+                <p>
+                    Zastosowanie dysku zapasowego, który automatycznie przejmuje rolę uszkodzonego dysku, 
+                    zapewniając ciągłość działania systemu RAID. Jest to popularne rozwiązanie w macierzach RAID 5 
+                    i RAID 6, gdzie czas odbudowy macierzy po awarii dysku może być kluczowy.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer_content">
+        <p>Jarek Łydka</p>
+        <p>2TC, Technikum Technologii Cyfrowych</p>
+        <p>&copy; 2024. Wszystko darmowe.</p>
+    </div>
+</footer>
+
 
 </body>
 </html>
