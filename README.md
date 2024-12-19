@@ -2,7 +2,7 @@
 
 https://pokoprogrammer12.github.io/RAID-website/
 
-Project for euk
+Project for UTK
 **_WEBSITE DOSIGNED ONLY FOR FULL HD SCREEN _**
 
 \*\*\*Macierze dyskowe RAID
